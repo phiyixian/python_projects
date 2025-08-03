@@ -1,0 +1,12 @@
+[project]
+name = "image-classifier"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "streamlit>=1.47.1",
+    "opencv-python>=4.8.0",
+    "tensorflow>=2.15,<2.16",
+    "tensorflow-io-gcs-filesystem<0.32.0",
+]
